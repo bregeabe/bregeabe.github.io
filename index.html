@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abraham Brege</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div>
+      <img src="assets/madiandi.png" class="pfp">
+      <p class="pfptxt">^My girlfriend and I in Hawaii!</p>
+    </div>
+    <div>
+      <h1>Abraham Brege</h1>
+      <p>Interested in applying classical programming language concepts to quantum computation.</p>
+    </div>
+    <div class="otherhalf">
+      <p><a href="https://github.com/bregeabe" class="link">github</a></p>
+      <p>my email is 'bregeabe at gmail dot com'</p>
+    </div>
+
+
+  </header>
+
+  <div class="layout">
+    <aside class="education" aria-labelledby="education-title">
+      <section aria-labelledby="research-title">
+        <h2 id="research-title">Research</h2>
+        <article>
+          <h3><a href="https://www.modtalk.org/" class="link">Modtalk Research Group</a></h3>
+          <p class="muted">Smalltalk</p>
+          <p>
+            Implementing a compiled, modular version of Smalltalk. I was a part of MT during the push for making it
+            platform agnostic. This meant working on MTBootstrap, MTDevtools and other aspects of self-compilation,
+            primarily developing in groups of four.
+          </p>
+        </article>
+      </section>
+      <h2 id="education-title">Education</h2>
+      <ul class="edu-list">
+        <li>
+          <strong>Northern Michigan University</strong><br />
+          B.S. Computer Science<br />
+          <span class="meta">2023–2025</span>
+        </li>
+        <li>
+          <strong>Alpena Community College</strong><br />
+          A.A. Computer Information Systems<br />
+          <span class="meta">2021–2023</span>
+        </li>
+      </ul>
+
+    </aside>
+
+    <main class="main">
+      <section aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div class="projects">
+
+          <article class="project">
+            <div class="project-body">
+              <h3><a href="https://github.com/bregeabe/pqcv" class="link">Programmable Quantum Circuit Simulator</a>
+              </h3>
+              <p class="muted">React, Python, Qiskit</p>
+              <p>A simulator geared towards lowering the barrier to entry for aspiring students who wish to get involved
+                in quantum information science. PQCV currently supports the Hadamard, Pauli and S operations on a single
+                qubit. The kick is the animation of the qubit changing state across the screen in real time, along with
+                multiple mathematical representations at the bottom, accompanied by an interactive bloch sphere showing
+                the current state vector. Originally created for myself, my goal now is to continue development to
+                support mutli-qubit operations and gates.</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-body">
+              <h3><a href="https://github.com/bregeabe/smalltalk-compiler" class="link">Compiler</a></h3>
+              <p class="muted">Smalltalk</p>
+              <p>A statically typed programming language made for NMU's cs322 course in the fall of 2024. In this
+                project, I used Smalltalk to implement an interpreter, AST, semantic analyzer, code generator, and error
+                checker. This language supports features such as conditionals, loops, procedures, functions, complex
+                expressions, and more.</p>
+            </div>
+          </article>
+
+
+
+          <article class="project">
+            <div class="project-body">
+              <h3><a href="https://github.com/bregeabe/cpp-lexer" class="link">Lexer</a></h3>
+              <p class="muted">C++</p>
+              <p>A simple lexer in C++ that supports tokenization of types, functions, arrays, expressions, and
+                literals. It was a great exercise to introduce me to low level programming during my first year at
+                Northern Michigan University.</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-body">
+              <h3><a href="https://github.com/bregeabe/serpent" class="link">Serpent</a></h3>
+              <p class="muted">React, TypeScript</p>
+              <p>Serpent is like Strava for programmers. It tracks your coding activity on websites like GitHub and
+                Leetcode and allows you to create your own projects for a personalized feel. On top of that, it
+                introduces the aspect of time, a concept not typically associated with coding. By visualizing your
+                coding activity over time, Serpent helps you identify patterns and trends in your development.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
