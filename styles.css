@@ -12,6 +12,15 @@ body {
   text-decoration: none;
 }
 
+.video-player {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
 .otherhalf {
   margin-left: auto;
   text-align: right;
